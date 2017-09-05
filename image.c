@@ -404,7 +404,6 @@ bool img_fit(img_t *img)
 			break;
 	}
 
-	z = MAX(z, zoom_min);
 	z = MIN(z, zmax);
 
 	if (zoomdiff(z, img->zoom) != 0) {
